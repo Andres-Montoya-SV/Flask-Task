@@ -1,0 +1,14 @@
+Develop a solution to the given requirements.
+    ● Create an API that has the following endpoints:
+        ○ A service to provide a search lookup within the podcasts (at least by name,
+          but is open to any suggestions).
+        ○ A service that would allow to save the top 20 podcasts to a separate JSON File
+        ○ A service to replace the top 20 podcasts for the bottom 20 to said JSON File
+        ○ A service to remove a podcast, using a given identifier (defined by you).
+
+■ Bonus!
+    ■ Use a Database (suggested: SQLite), instead of the JSON File. Include a
+      create schema in the repo and instructions on how to implement it.
+      oAdd authentication API endpoint(s)
+    ■ Create a service to return the podcasts grouped by genres, even if
+      they appear as duplicates within some of the categories.
