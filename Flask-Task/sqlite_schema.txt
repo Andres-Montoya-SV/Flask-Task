@@ -1,0 +1,17 @@
+CREATE TABLE Podcast(
+  artistName varchar(500),
+  releaseDate varchar(500),
+  id varchar(500) primary key,
+  name varchar(500),
+  kind varchar(500),
+  copyright varchar(500),
+  artistId varchar(500),
+  artistUrl varchar(500)
+  url varchar(500)
+);
+
+CREATE TABLE PodcastGenre(
+  genreId varchar(500) primary key,
+  name varchar(500),
+  url varchar(500)
+);

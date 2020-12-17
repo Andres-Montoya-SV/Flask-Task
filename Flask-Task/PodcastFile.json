@@ -1,4 +1,4 @@
-Podcast = [
+{"Podcast": [
     {
         "feed":{
         "title":"Top Podcasts",
@@ -2914,4 +2914,4 @@ Podcast = [
         ]
         }
     }
-]
+]}
