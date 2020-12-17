@@ -7,12 +7,12 @@ api = Api(app)
 
 @app.route('/', methods=['GET', 'POST'])
 def getPodcast():
-    return jsonify(results)
+    return jsonify(feed, links, results)
 
 ## Podcast filter finder function.
 @app.route('/podcast/<string:podcast_name>')
 def PodcastFilter(podcast_name):
-    PodcastFound = [podcast for podcast in results if podcast['artistName'] == podcast_name]
+    PodcastFound = [podcast for podcast in results if (podcast['name'] == podcast_name or podcast['artistName'] == podcast_name)]
     if (len(PodcastFound) > 0):
         return jsonify({"Podcast found": PodcastFound[0]})
     return jsonify({"Message": "Podcast not found or does not exist"})
