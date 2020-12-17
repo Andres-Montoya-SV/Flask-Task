@@ -1,25 +1,4 @@
-Podcast = [
-    {
-        "feed":{
-        "title":"Top Podcasts",
-        "id":"https://rss.itunes.apple.com/api/v1/us/podcasts/top-podcasts/all/100/explicit.json",
-        "author":{
-            "name":"iTunes Store",
-            "uri":"http://wwww.apple.com/us/itunes/"
-        },
-        "links":[
-            {
-                "self":"https://rss.itunes.apple.com/api/v1/us/podcasts/top-podcasts/all/100/explicit.json"
-            },
-            {
-                "alternate":"https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewTop?genreId=26\u0026popId=3"
-            }
-        ],
-        "copyright":"Copyright © 2018 Apple Inc. Todos los derechos reservados.",
-        "country":"us",
-        "icon":"http://itunes.apple.com/favicon.ico",
-        "updated":"2020-12-14T04:51:58.000-08:00",
-        "results":[
+results = [
             {
                 "artistName":"audiochuck",
                 "id":"1322200189",
@@ -2912,6 +2891,23 @@ Podcast = [
                 "url":"https://podcasts.apple.com/us/podcast/therapy-for-black-girls/id1223803641"
             }
         ]
+
+links = [
+    {
+        "self":"https://rss.itunes.apple.com/api/v1/us/podcasts/top-podcasts/all/100/explicit.json"
+    },
+    {
+        "alternate":"https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewTop?genreId=26\u0026popId=3"
+    }
+]
+
+feed = [
+    {
+    "title":"Top Podcasts",
+    "id":"https://rss.itunes.apple.com/api/v1/us/podcasts/top-podcasts/all/100/explicit.json",
+    "author":{
+        "name":"iTunes Store",
+        "uri":"http://wwww.apple.com/us/itunes/"
         }
     }
 ]
