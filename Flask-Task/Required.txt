@@ -9,6 +9,6 @@ Develop a solution to the given requirements.
 ■ Bonus!
     ■ Use a Database (suggested: SQLite), instead of the JSON File. Include a
       create schema in the repo and instructions on how to implement it.
-      oAdd authentication API endpoint(s)
+      oAdd authentication API endpoint(s)----------------------------------------------------> DONE
     ■ Create a service to return the podcasts grouped by genres, even if
       they appear as duplicates within some of the categories.
